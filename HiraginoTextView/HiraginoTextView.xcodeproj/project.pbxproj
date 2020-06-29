@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE898A6D24A615E100B19187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A6C24A615E100B19187 /* AppDelegate.swift */; };
+		BE898A6F24A615E100B19187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A6E24A615E100B19187 /* SceneDelegate.swift */; };
+		BE898A7124A615E100B19187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A7024A615E100B19187 /* ViewController.swift */; };
+		BE898A7424A615E100B19187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE898A7224A615E100B19187 /* Main.storyboard */; };
+		BE898A7724A615E100B19187 /* HiraginoTextView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE898A7524A615E100B19187 /* HiraginoTextView.xcdatamodeld */; };
+		BE898A7924A615E300B19187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE898A7824A615E300B19187 /* Assets.xcassets */; };
+		BE898A7C24A615E300B19187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE898A7A24A615E300B19187 /* LaunchScreen.storyboard */; };
+		BE898A8724A615E300B19187 /* HiraginoTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A8624A615E300B19187 /* HiraginoTextViewTests.swift */; };
+		BE898A9224A615E300B19187 /* HiraginoTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE898A9124A615E300B19187 /* HiraginoTextViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE898A8324A615E300B19187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE898A6124A615E100B19187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE898A6824A615E100B19187;
+			remoteInfo = HiraginoTextView;
+		};
+		BE898A8E24A615E300B19187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE898A6124A615E100B19187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE898A6824A615E100B19187;
+			remoteInfo = HiraginoTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE898A6924A615E100B19187 /* HiraginoTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiraginoTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE898A6C24A615E100B19187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE898A6E24A615E100B19187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE898A7024A615E100B19187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE898A7324A615E100B19187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE898A7624A615E100B19187 /* HiraginoTextView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HiraginoTextView.xcdatamodel; sourceTree = "<group>"; };
+		BE898A7824A615E300B19187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE898A7B24A615E300B19187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE898A7D24A615E300B19187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE898A8224A615E300B19187 /* HiraginoTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiraginoTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE898A8624A615E300B19187 /* HiraginoTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiraginoTextViewTests.swift; sourceTree = "<group>"; };
+		BE898A8824A615E300B19187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE898A8D24A615E300B19187 /* HiraginoTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiraginoTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE898A9124A615E300B19187 /* HiraginoTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiraginoTextViewUITests.swift; sourceTree = "<group>"; };
+		BE898A9324A615E300B19187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE898A6624A615E100B19187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A7F24A615E300B19187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A8A24A615E300B19187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE898A6024A615E100B19187 = {
+			isa = PBXGroup;
+			children = (
+				BE898A6B24A615E100B19187 /* HiraginoTextView */,
+				BE898A8524A615E300B19187 /* HiraginoTextViewTests */,
+				BE898A9024A615E300B19187 /* HiraginoTextViewUITests */,
+				BE898A6A24A615E100B19187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE898A6A24A615E100B19187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A6924A615E100B19187 /* HiraginoTextView.app */,
+				BE898A8224A615E300B19187 /* HiraginoTextViewTests.xctest */,
+				BE898A8D24A615E300B19187 /* HiraginoTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE898A6B24A615E100B19187 /* HiraginoTextView */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A6C24A615E100B19187 /* AppDelegate.swift */,
+				BE898A6E24A615E100B19187 /* SceneDelegate.swift */,
+				BE898A7024A615E100B19187 /* ViewController.swift */,
+				BE898A7224A615E100B19187 /* Main.storyboard */,
+				BE898A7824A615E300B19187 /* Assets.xcassets */,
+				BE898A7A24A615E300B19187 /* LaunchScreen.storyboard */,
+				BE898A7D24A615E300B19187 /* Info.plist */,
+				BE898A7524A615E100B19187 /* HiraginoTextView.xcdatamodeld */,
+			);
+			path = HiraginoTextView;
+			sourceTree = "<group>";
+		};
+		BE898A8524A615E300B19187 /* HiraginoTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A8624A615E300B19187 /* HiraginoTextViewTests.swift */,
+				BE898A8824A615E300B19187 /* Info.plist */,
+			);
+			path = HiraginoTextViewTests;
+			sourceTree = "<group>";
+		};
+		BE898A9024A615E300B19187 /* HiraginoTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE898A9124A615E300B19187 /* HiraginoTextViewUITests.swift */,
+				BE898A9324A615E300B19187 /* Info.plist */,
+			);
+			path = HiraginoTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE898A6824A615E100B19187 /* HiraginoTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE898A9624A615E300B19187 /* Build configuration list for PBXNativeTarget "HiraginoTextView" */;
+			buildPhases = (
+				BE898A6524A615E100B19187 /* Sources */,
+				BE898A6624A615E100B19187 /* Frameworks */,
+				BE898A6724A615E100B19187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiraginoTextView;
+			productName = HiraginoTextView;
+			productReference = BE898A6924A615E100B19187 /* HiraginoTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE898A8124A615E300B19187 /* HiraginoTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE898A9924A615E300B19187 /* Build configuration list for PBXNativeTarget "HiraginoTextViewTests" */;
+			buildPhases = (
+				BE898A7E24A615E300B19187 /* Sources */,
+				BE898A7F24A615E300B19187 /* Frameworks */,
+				BE898A8024A615E300B19187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE898A8424A615E300B19187 /* PBXTargetDependency */,
+			);
+			name = HiraginoTextViewTests;
+			productName = HiraginoTextViewTests;
+			productReference = BE898A8224A615E300B19187 /* HiraginoTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE898A8C24A615E300B19187 /* HiraginoTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE898A9C24A615E300B19187 /* Build configuration list for PBXNativeTarget "HiraginoTextViewUITests" */;
+			buildPhases = (
+				BE898A8924A615E300B19187 /* Sources */,
+				BE898A8A24A615E300B19187 /* Frameworks */,
+				BE898A8B24A615E300B19187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE898A8F24A615E300B19187 /* PBXTargetDependency */,
+			);
+			name = HiraginoTextViewUITests;
+			productName = HiraginoTextViewUITests;
+			productReference = BE898A8D24A615E300B19187 /* HiraginoTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE898A6124A615E100B19187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Yoyo;
+				TargetAttributes = {
+					BE898A6824A615E100B19187 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BE898A8124A615E300B19187 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BE898A6824A615E100B19187;
+					};
+					BE898A8C24A615E300B19187 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BE898A6824A615E100B19187;
+					};
+				};
+			};
+			buildConfigurationList = BE898A6424A615E100B19187 /* Build configuration list for PBXProject "HiraginoTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE898A6024A615E100B19187;
+			productRefGroup = BE898A6A24A615E100B19187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE898A6824A615E100B19187 /* HiraginoTextView */,
+				BE898A8124A615E300B19187 /* HiraginoTextViewTests */,
+				BE898A8C24A615E300B19187 /* HiraginoTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE898A6724A615E100B19187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE898A7C24A615E300B19187 /* LaunchScreen.storyboard in Resources */,
+				BE898A7924A615E300B19187 /* Assets.xcassets in Resources */,
+				BE898A7424A615E100B19187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A8024A615E300B19187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A8B24A615E300B19187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE898A6524A615E100B19187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE898A7124A615E100B19187 /* ViewController.swift in Sources */,
+				BE898A6D24A615E100B19187 /* AppDelegate.swift in Sources */,
+				BE898A7724A615E100B19187 /* HiraginoTextView.xcdatamodeld in Sources */,
+				BE898A6F24A615E100B19187 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A7E24A615E300B19187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE898A8724A615E300B19187 /* HiraginoTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898A8924A615E300B19187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE898A9224A615E300B19187 /* HiraginoTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE898A8424A615E300B19187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE898A6824A615E100B19187 /* HiraginoTextView */;
+			targetProxy = BE898A8324A615E300B19187 /* PBXContainerItemProxy */;
+		};
+		BE898A8F24A615E300B19187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE898A6824A615E100B19187 /* HiraginoTextView */;
+			targetProxy = BE898A8E24A615E300B19187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE898A7224A615E100B19187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE898A7324A615E100B19187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE898A7A24A615E300B19187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE898A7B24A615E300B19187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE898A9424A615E300B19187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE898A9524A615E300B19187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE898A9724A615E300B19187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5735V89Z5V;
+				INFOPLIST_FILE = HiraginoTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.socspy.HiraginoTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE898A9824A615E300B19187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5735V89Z5V;
+				INFOPLIST_FILE = HiraginoTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.socspy.HiraginoTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE898A9A24A615E300B19187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5735V89Z5V;
+				INFOPLIST_FILE = HiraginoTextViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.socspy.HiraginoTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiraginoTextView.app/HiraginoTextView";
+			};
+			name = Debug;
+		};
+		BE898A9B24A615E300B19187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5735V89Z5V;
+				INFOPLIST_FILE = HiraginoTextViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.socspy.HiraginoTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiraginoTextView.app/HiraginoTextView";
+			};
+			name = Release;
+		};
+		BE898A9D24A615E300B19187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5735V89Z5V;
+				INFOPLIST_FILE = HiraginoTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.socspy.HiraginoTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiraginoTextView;
+			};
+			name = Debug;
+		};
+		BE898A9E24A615E300B19187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5735V89Z5V;
+				INFOPLIST_FILE = HiraginoTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.socspy.HiraginoTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiraginoTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE898A6424A615E100B19187 /* Build configuration list for PBXProject "HiraginoTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE898A9424A615E300B19187 /* Debug */,
+				BE898A9524A615E300B19187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE898A9624A615E300B19187 /* Build configuration list for PBXNativeTarget "HiraginoTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE898A9724A615E300B19187 /* Debug */,
+				BE898A9824A615E300B19187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE898A9924A615E300B19187 /* Build configuration list for PBXNativeTarget "HiraginoTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE898A9A24A615E300B19187 /* Debug */,
+				BE898A9B24A615E300B19187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE898A9C24A615E300B19187 /* Build configuration list for PBXNativeTarget "HiraginoTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE898A9D24A615E300B19187 /* Debug */,
+				BE898A9E24A615E300B19187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE898A7524A615E100B19187 /* HiraginoTextView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE898A7624A615E100B19187 /* HiraginoTextView.xcdatamodel */,
+			);
+			currentVersion = BE898A7624A615E100B19187 /* HiraginoTextView.xcdatamodel */;
+			path = HiraginoTextView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE898A6124A615E100B19187 /* Project object */;
+}
